@@ -2,11 +2,11 @@
 ns: CAM
 aliases: ["0x8DB3F12A02CAEF72"]
 ---
-## _ATTACH_CAM_TO_VEHICLE_BONE
+## ATTACH_CAM_TO_VEHICLE_BONE
 
 ```c
 // 0x8DB3F12A02CAEF72
-void _ATTACH_CAM_TO_VEHICLE_BONE(Cam cam, Vehicle vehicle, int boneIndex, BOOL relativeRotation, float rotX, float rotY, float rotZ, float offX, float offY, float offZ, BOOL fixedDirection);
+void ATTACH_CAM_TO_VEHICLE_BONE(Cam cam, Vehicle vehicle, int boneIndex, BOOL relativeRotation, float rotX, float rotY, float rotZ, float offX, float offY, float offZ, BOOL fixedDirection);
 ```
 
 This native works with vehicles only.
